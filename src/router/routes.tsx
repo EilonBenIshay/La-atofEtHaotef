@@ -1,5 +1,6 @@
 import HomePage from "../pages/homePage/homePage";
 import PostPage from "../pages/postPage/postPage";
+import CreateNewPostPage from "../pages/createNewPostPage/createNewPost";
 
 
 export interface route {
@@ -19,4 +20,9 @@ export const routes: route[] = [
     name: "post",
     component: PostPage,
   },
+  {
+    path: "/createPost",
+    name: "createPost",
+    component: CreateNewPostPage,
+  }
 ]

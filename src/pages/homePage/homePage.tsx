@@ -3,6 +3,7 @@ import RecieverImage from '../../assets/recieverImage.jpg';
 import Card from '@mui/material/Card';
 import * as s from './styles'
 import { Link } from 'react-router-dom';
+import { Divider } from '@mui/material';
 
 function HomePage() {
     return (
@@ -41,7 +42,22 @@ function HomePage() {
                 <s.LeftImage src={RecieverImage} alt="Card Image"/>
                 <s.LeftRotatedText>לקבלת סיוע</s.LeftRotatedText>
             </Card>
-            </Link>
+          </Link>
+            <Divider variant="middle"
+          sx={{
+            width: '90vw',
+            border: '2.4px solid',
+            borderColor: '#ECF39E',
+            position: 'absolute',
+            bottom: '17vh',
+          }} />
+        <div className="contact">
+          צרו קשר:
+          <br />
+          052-5381648
+          <br />
+          israel@gmail.com
+        </div>
         </>
     )
 }
