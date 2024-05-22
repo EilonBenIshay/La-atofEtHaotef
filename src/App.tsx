@@ -13,25 +13,25 @@ function App() {
   });
 
   return (
-    <>   
-        <BrowserRouter>
+    <>
+      <BrowserRouter>
         <Header></Header>
         <Routes>{RoutesList}</Routes>
-      <Divider variant="middle"
-        sx={{
-          width: '90vw',
-          border: '2.4px solid',
-          borderColor: '#ECF39E',
-          position: 'absolute',
-          bottom: '17vh',
-        }} />
-      <div className="contact">
-        צרו קשר:
-        <br />
-        052-5381648
-        <br />
-        israel@gmail.com
-      </div>
+        <Divider variant="middle"
+          sx={{
+            width: '90vw',
+            border: '2.4px solid',
+            borderColor: '#ECF39E',
+            position: 'absolute',
+            bottom: '17vh',
+          }} />
+        <div className="contact">
+          צרו קשר:
+          <br />
+          052-5381648
+          <br />
+          israel@gmail.com
+        </div>
       </BrowserRouter>
     </>
   )
