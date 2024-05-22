@@ -17,13 +17,13 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Serve React app with Nginx
-#FROM nginx:latest
+FROM nginx:latest
 
 # Copy built React app from the previous stage
-#COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/dist /usr/share/nginx/html
 
 # Expose port 8080
-#EXPOSE 8080
+EXPOSE 8080
 
 # Start Nginx server
-#CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
