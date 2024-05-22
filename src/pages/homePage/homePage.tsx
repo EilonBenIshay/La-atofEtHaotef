@@ -10,11 +10,11 @@ function HomePage() {
         <Link to={'/post'}>
             <Card sx={{
                 backgroundColor: '#ECF39E',
-                height: '13rem',
-                width: '33rem',
+                height: '37vh',
+                width: '44vw',
                 position: 'absolute',
                 right: 0,
-                top: '56%',
+                top: '44%',
                 transform: 'translateY(-50%)',
                 borderRadius: '150px 0 0 150px',
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
@@ -29,11 +29,11 @@ function HomePage() {
           <Link to={'/post'}>
             <Card sx={{
                 backgroundColor: '#ECF39E',
-                height: '13rem',
-                width: '33rem',
+                height: '37vh',
+                width: '44vw',
                 position: 'absolute',
                 left: 0,
-                top: '75%',
+                top: '60%',
                 transform: 'translateY(-50%)',
                 borderRadius: '0 150px 150px 0',
                 boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',

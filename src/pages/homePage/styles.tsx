@@ -35,7 +35,7 @@ export const RightRotatedText = styled('div')({
     color: '#90A955',
     transform: 'translate(-50%, -50%) rotate(90deg)',
     position: 'absolute',
-    right: '-19%',
+    right: '-15%',
     top: '50%',
     fontSize: 'xx-large',
 })
