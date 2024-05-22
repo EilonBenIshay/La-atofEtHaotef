@@ -18,7 +18,7 @@ FROM nginx:latest as prod
 # Copy the build files from the previous stage
 COPY --from=build /app/dist /usr/share/nginx/html
 # Copy nginx.conf
-#COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 # Expose port 8080 to the outside world
 EXPOSE 8080
 # Command to run the web server
