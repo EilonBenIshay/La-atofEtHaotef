@@ -5,7 +5,7 @@ export const NavTitle = styled('div')({
     fontSize: '3rem',
     fontWeight: 'bold',
     alignSelf: 'center',
-    color: '#ECF39E',
+    color: '#dcc9b6',
 })
 
 export const ClassCard = styled('div')({
@@ -29,6 +29,6 @@ export const LinkText = styled(ListItemText)({
 
 export const NavBar = styled(AppBar)({
     marginBottom: '2%',
-    backgroundColor: '#90A955',
+    backgroundColor: '#a4ac86',
     justifyContent: 'center',
 });

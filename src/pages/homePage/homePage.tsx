@@ -9,7 +9,7 @@ function HomePage() {
         <>
         <Link to={'/post'}>
             <Card sx={{
-                backgroundColor: '#ECF39E',
+                backgroundColor: '#dcc9b6',
                 height: '13rem',
                 width: '33rem',
                 position: 'absolute',
@@ -28,7 +28,7 @@ function HomePage() {
 
           <Link to={'/post'}>
             <Card sx={{
-                backgroundColor: '#ECF39E',
+                backgroundColor: '#dcc9b6',
                 height: '13rem',
                 width: '33rem',
                 position: 'absolute',

@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'gen';
+  src: url('assets/gan/ganclm_bold-webfont.ttf') format('truetype'),
+        url('assets/gan/ganclm_bold-webfont.woff') format('woff');
+}
+
 body {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'gen';
   line-height: 1.5;
   font-weight: 400;
-  background-color: #4F772D;
+  background-color: #656d4a;
   direction: rtl;
 
   color-scheme: light dark;

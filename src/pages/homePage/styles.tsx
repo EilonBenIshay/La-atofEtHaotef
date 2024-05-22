@@ -23,7 +23,7 @@ export const RightImage = styled('img')({
 })
 
 export const LeftRotatedText = styled('div')({
-    color: '#90A955',
+    color: '#a4ac86',
     transform: 'translate(-50%, -50%) rotate(270deg)',
     position: 'absolute',
     left: '6.5%',
@@ -32,7 +32,7 @@ export const LeftRotatedText = styled('div')({
 })
 
 export const RightRotatedText = styled('div')({
-    color: '#90A955',
+    color: '#a4ac86',
     transform: 'translate(-50%, -50%) rotate(90deg)',
     position: 'absolute',
     right: '-19%',
