@@ -14,7 +14,7 @@ COPY . .
 RUN npm run build
 
 # Use a lightweight web server to serve the static files
-FROM nginx:latest
+FROM nginx:latest as prod
 # Copy the build files from the previous stage
 COPY --from=build /app/dist /usr/share/nginx/html
 # Copy nginx.conf
