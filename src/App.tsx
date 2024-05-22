@@ -1,14 +1,22 @@
 import "./App.css";
-import HomePage from "./pages/homePage/homePage";
-import Header from "./Components/Header/Header"
 import { Divider } from "@mui/material";
+import { routes, route } from "../src/router/routes";
+import Header from "./Components/Header/Header";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
-  return (
-    <>
-      <Header></Header>
-      <HomePage></HomePage>;
+  const RoutesList = routes.map((route: route) => {
+    return (
+      <Route key={route.path} path={route.path} element={<route.component />} />
+    );
+  });
 
+  return (
+    <>   
+        <BrowserRouter>
+        <Header></Header>
+        <Routes>{RoutesList}</Routes>
       <Divider variant="middle"
         sx={{
           width: '90vw',
@@ -24,6 +32,7 @@ function App() {
         <br />
         israel@gmail.com
       </div>
+      </BrowserRouter>
     </>
   )
 }
