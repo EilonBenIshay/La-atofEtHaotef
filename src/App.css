@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.contact {
+  color: #ECF39E;
+  bottom: '1vh';
+  position: absolute;
+  bottom: 2vh;
+  left: 40vw;
+  right: 40vw
+}
