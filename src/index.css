@@ -2,10 +2,11 @@ body {
   font-family: 'Heebo', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  background-color: #245501;
+  background-color: #4F772D;
+  direction: rtl;
 
   color-scheme: light dark;
-    
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
