@@ -11,7 +11,7 @@ RUN npm install
 # Copy the rest of the application
 COPY . .
 # Build the React app
-RUN npm run build
+RUN npm run dev
 
 # Use a lightweight web server to serve the static files
 FROM nginx:latest as prod
