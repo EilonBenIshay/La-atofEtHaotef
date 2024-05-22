@@ -6,13 +6,13 @@ function CreateNewPostPage() {
         <>
             <NewPostDiv>
                 <TextFieldForm id="newName" label="הוספת שם" />
-                <br/>
+                <br />
                 <TextFieldForm id="newText" label="הוספת טקסט" />
-                <br/>
+                <br />
                 <TextFieldForm id="newImageUrl" label="הוספת תמונה" />
-                <br/>
+                <br />
                 <TextFieldForm id="newLocation" label="הוספת מיקום" />
-                <br/>
+                <br />
                 <FormControl>
                     <RadioGroupForm
                         defaultValue="giver"
@@ -22,11 +22,11 @@ function CreateNewPostPage() {
                         <FormControlLabel value="reciever" control={<Radio />} label="מתן סיוע" />
                     </RadioGroupForm>
                 </FormControl>
-            </NewPostDiv>
 
-            <AddButton>
-                הוספה
-            </AddButton>
+                <AddButton>
+                    הוספה
+                </AddButton>
+            </NewPostDiv>
         </>
     )
 }
