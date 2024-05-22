@@ -1,4 +1,5 @@
 # Use an official Node runtime as a parent image
+# hello michael
 FROM node:20.11-alpine AS build
 # Set the working directory
 WORKDIR /app
