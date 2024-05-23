@@ -14,7 +14,7 @@ interface PostProps {
 
 const Post: React.FC<PostProps> = ({ img, description, actions }) => {
     return (
-        <Card sx={{ marginTop: 5, width: 400, backgroundColor: '#4F772D' }}>
+        <Card sx={{ marginTop: 5, width: 400, backgroundColor: '#656D4A' }}>
             <CardContent>
                 <CardMedia
                     component="img"
@@ -22,7 +22,7 @@ const Post: React.FC<PostProps> = ({ img, description, actions }) => {
                     width="220"
                     image={img}
                 />
-                <Card sx={{ backgroundColor: '#ECF39E', marginTop: '1rem', borderRadius: '1.25rem' }}>
+                <Card sx={{ backgroundColor: '#DCC9B6', marginTop: '1rem', borderRadius: '1.25rem' }}>
                     <CardContent>
                         <Typography>
                             {description}
@@ -35,7 +35,7 @@ const Post: React.FC<PostProps> = ({ img, description, actions }) => {
                     <IconButton key={index} onClick={action.onClickAction} sx={{
                         borderRadius: '50%',
                         padding: '10px',
-                        backgroundColor: '#ECF39E',
+                        backgroundColor: '#DCC9B6',
                         marginBottom: '1rem'
                     }}>
                         {action.IconImage}

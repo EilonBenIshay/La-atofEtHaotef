@@ -1,5 +1,4 @@
-import { FormControl, FormControlLabel, Radio } from "@mui/material";
-import { AddButton, NewPostDiv, RadioGroupForm, TextFieldForm } from "./styles";
+import { AddButton, NewPostDiv, TextFieldForm } from "./styles";
 
 function CreateNewPostPage() {
     return (
@@ -13,16 +12,6 @@ function CreateNewPostPage() {
                 <br />
                 <TextFieldForm id="newLocation" label="הוספת מיקום" />
                 <br />
-                <FormControl>
-                    <RadioGroupForm
-                        defaultValue="giver"
-                        name="postTypeRadio"
-                    >
-                        <FormControlLabel value="giver" control={<Radio />} label="קבלת סיוע" />
-                        <FormControlLabel value="reciever" control={<Radio />} label="מתן סיוע" />
-                    </RadioGroupForm>
-                </FormControl>
-
                 <AddButton>
                     הוספה
                 </AddButton>
