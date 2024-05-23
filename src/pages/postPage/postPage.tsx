@@ -23,7 +23,7 @@ function PostPage() {
 
     return (
         <>
-        <Card sx={{backgroundColor: '#ECF39E', width: '100%', height: '100%'}}>
+        <Card sx={{backgroundColor: '#DCC9B6', width: '100%', height: '100%'}}>
             <Container sx={{ 
                 display: 'flex', 
                 flexDirection: 'column', 
@@ -37,11 +37,11 @@ function PostPage() {
                         description={post.description}
                         actions={[
                             {
-                                IconImage: <img src="https://img.icons8.com/color/48/000000/like--v1.png" alt="like" />,
+                                IconImage: <img src="https://img.icons8.com/?size=40&id=87&format=png&color=000000" alt="like" />,
                                 onClickAction: () => console.log('like')
                             },
                             {
-                                IconImage: <img src="https://img.icons8.com/color/48/000000/share--v1.png" alt="share" />,
+                                IconImage: <img src="https://img.icons8.com/?size=40&id=d7iUgF8ZrDaO&format=png&color=000000" alt="share" />,
                                 onClickAction: () => console.log('share')
                             }
                         ]}

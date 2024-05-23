@@ -1,7 +1,7 @@
-import { Button, RadioGroup, TextField, styled } from "@mui/material";
+import { Button, TextField, styled } from "@mui/material";
 
 export const NewPostDiv = styled('div')({
-    backgroundColor: "#ECF39E",
+    backgroundColor: "#dcc9b6",
     height: "83%",
     width: "100%",
     right: 0,
@@ -16,13 +16,9 @@ export const TextFieldForm = styled(TextField)({
     width: "25%",
 })
 
-export const RadioGroupForm = styled(RadioGroup)({
-    flexDirection: "row",
-})
-
 export const AddButton = styled(Button)({
-    color: "#ECF39E",
-    backgroundColor: "#90A955",
+    color: "#dcc9b6",
+    backgroundColor: "#656D4A",
     borderRadius: '50px 50px 50px 50px', 
     position: "absolute",
     bottom: "8.5%",

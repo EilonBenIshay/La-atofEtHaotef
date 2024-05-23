@@ -47,7 +47,7 @@ function HomePage() {
           sx={{
             width: '90vw',
             border: '2.4px solid',
-            borderColor: '#ECF39E',
+            borderColor: '#dcc9b6',
             position: 'absolute',
             bottom: '17vh',
           }} />
