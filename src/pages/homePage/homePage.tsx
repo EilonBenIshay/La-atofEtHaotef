@@ -27,7 +27,7 @@ function HomePage() {
             </Card>
           </Link>
 
-          <Link to={'/post'}>
+          <Link to={'/createPost'}>
             <Card sx={{
                 backgroundColor: '#dcc9b6',
                 height: '13rem',

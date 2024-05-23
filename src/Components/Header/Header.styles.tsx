@@ -1,4 +1,4 @@
-import { AppBar, IconButton, ListItemText, Toolbar, styled } from '@mui/material';
+import { AppBar, ListItemText, Toolbar, styled } from '@mui/material';
 
 
 export const NavTitle = styled('div')({
@@ -11,11 +11,6 @@ export const NavTitle = styled('div')({
 export const ClassCard = styled('div')({
     flexGrow: 1
 })
-
-export const ThemeButton = styled(IconButton)({
-
-})
-
 
 export const NavToolBar = styled(Toolbar)({
     display: 'flex',
